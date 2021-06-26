@@ -144,6 +144,7 @@ class ViewController: UIViewController {
     
     if tieCount > 0 {
       // SampleData.plist data already in Core Data
+      return
     }
     
     let path = Bundle.main.path(forResource: "SampleData", ofType: "plist")

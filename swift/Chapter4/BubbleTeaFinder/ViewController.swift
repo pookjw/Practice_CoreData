@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     // 1
     
 //    guard let model = coreDataStack.managedContext.persistentStoreCoordinator?.managedObjectModel,
-//          let fetchRequest = model.fetchRequestTemplate(forName: "FetchRequest") as? NSFetchRequest<Venue> else {
+//          let fetchRequest = model.fetchRequestTemplate(forName: "FetchRequest") as? NSFetchRequest<Venue> else { // BubbleTeaFinder.xcdatamodeld 안에 있는 FetchRequest
 //            return
 //          }
 //
